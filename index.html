@@ -4,23 +4,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tip Calculator</title>
+    <link rel="icon" type="image/x-icon" href="https://img.freepik.com/premium-vector/calculator-with-modern-flat-style_3322-74.jpg?w=2000">
     <link rel="stylesheet" href="style.css">
     <script src="./index.js"></script>
 </head>
 <body>
     <h2>Tip Calculator</h2>
     <div id="container">
-        <label>Bill Amount:</label>  
+
+        <label>Bill Amount :</label>  
         <input id="bill" type="number" name="">
         <br>
-        <label>Percentage:</label>  
+
+        <label> Tip % :</label>  
         <input id="percentage" type="number" name="">
         <br>
-        <label>Total Bill :</label> 
-         <input id="Total" type="number" name="" disabled>
-         <br>
-        <button id="btn" onclick="tip()">Calculate</button>
+
+        <label>Split Bill Into :</label> 
+        <input id="split" type="number" name="" >
+        <br>
+        <label>Total Tip:</label> 
+        <input id="Total" type="number" name="" disabled>
+        <br><label>Total Tip/Person :</label> 
+        <input id="perperson" type="number" name="" disabled>
+        <br>
+        <button id="btn" onclick="tip()">calculate</button>
+        <button id="reset" onclick="reset()">reset</button>
+
+          
     </div>
+    
     
 </body>
 </html>
