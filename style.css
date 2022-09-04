@@ -35,7 +35,7 @@ h2{
 
 label{
     display: block;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 input{
@@ -53,4 +53,8 @@ button{
     color: white;
     background: #2d3436;
     margin-top: 20px;
+}
+button:hover{
+    color: rgb(78, 65, 48);
+    background-color:#6699ff;
 }
